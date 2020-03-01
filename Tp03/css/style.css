@@ -1,0 +1,92 @@
+
+/* ---------------------------------Home Page---------------------------------*/
+#mynav{
+	text-align: right;
+    height: 60px;
+	padding-top :20px;
+	background-color: white;
+	box-shadow: 5px 5px  10px  grey;
+	position: fixed; 
+	top: 0; 
+	  width: 100%;
+}
+.link_Ap {
+	padding-right: 100px;
+	font-size: 20px;
+}
+#img_initial{
+	padding-top: 60px;
+	width:800px;
+	 height:400px;
+}
+#discription{
+	font-size: 20px;
+	width:400px;
+	margin-bottom: 60px;
+	
+}
+#myhome{
+	margin-top: 80px;
+	background-color:	#e6e6e6;
+	height: 500px;
+}
+#camme{
+	border: 2px  black;
+	border-radius: 10px;
+	background-color: goldenrod;
+	font-size: 30px;
+	padding: 5px;
+	
+}
+.mylogo{
+	background-color: #f3f3f3;
+}
+.log{
+	width: 150px;
+	height: 150px;
+	margin-left: 500px;
+}
+
+/* ---------------------------------footer---------------------------------*/
+.espace_footer{
+	width: 500px;
+	right: 264px;
+	margin-bottom: 130px;
+}
+.titre_footer{
+
+	font-size: 30px;
+}
+.icon_footer{
+	height: 40px;
+	width: 40px;
+
+}
+.link_footer{
+	font-size: 22px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.info_icon{
+	margin-right: 40px;
+}
+#footer{
+	background-color:#d3d3d3;
+}
+#img_footer{
+	height: 250px;
+	width: 250px;
+}
+#table{
+	margin-left: 120px;
+}
+#sous_footer{
+	background-color: #808080;
+	height: 50px;
+}
+#p_sf{
+	margin-top: 0px;
+    text-align: center;
+    padding-top: 15px;
+
+}

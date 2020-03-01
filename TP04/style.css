@@ -1,0 +1,97 @@
+#robot,#robot_2{
+    width: 500px;
+    height: 800px;
+    display: inline-block;
+}
+/* ------------------------------------------ robot 1 ------------------------------------------ */
+/* ************************ tete ************************ */
+#tete,#tete_2{
+    
+    border: 1px solid black;
+    width: 60%;
+    height: 20%;
+    background-color: rgb(118, 118, 122);
+    border-top-left-radius: 120px;
+    border-top-right-radius: 120px;
+    margin-left: 80px;
+    transition-property: border 2s;
+
+}
+#od,#od_2{
+    border: 1px solid black;
+    width: 10%;
+    height: 10%;
+    display: inline-flex;
+    border-radius: 100px;
+    background-color: rgb(255, 255, 255);
+    
+    margin-left: 80px;
+    margin-right: 55px;
+    margin-top: 60px;
+
+}
+#og,#og_2{
+    border: 1px solid rgb(0, 0, 0);
+    width: 10%;
+    height: 10%;
+    display: inline-flex;
+    border-radius: 100px;
+    background-color: white;
+}
+/* ************************ corp ************************ */
+#main,#main_2{
+    width: 100%;
+    height: 350px;
+}
+#md,#mg,#md_2,#mg_2{
+    display: inline-flex;
+    border: 1px solid black;
+    height: 60%;
+    width: 20%;
+    margin-bottom: 150px;
+    background-color: blue;
+    border-radius: 40px;
+
+}
+#corp,#corp_2{
+    display: inline-flex;
+    border: 1px solid black;
+    height: 100%;
+    width: 50%;
+    background-color: blue;
+}
+/* ************************ pied ************************ */
+#pied,#pied_2{
+    width: 100%;
+    height: 29%;
+}
+#pd,#pd_2{
+    display: inline-flex;
+    border: 1px solid black;
+    width: 10%;
+    height: 80%;
+    margin-left: 145px;
+    padding-right: 0px;
+    margin-right: 70px;
+    margin-bottom: 0px;
+    background-color: blue;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+#pg,#pg_2{
+    display: inline-flex;
+    border: 1px solid black;
+    width: 10%;
+    height: 80%;
+    background-color: blue;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+/* ------------------------------------------ robot 2 ------------------------------------------ */
+#tete_2:hover{
+    border: 4px solid green;
+}
+#tete_2:hover{
+    width: 300px;
+}
+
