@@ -1,5 +1,6 @@
 
 /* ---------------------------------Home Page---------------------------------*/
+/* **************** NavBar **************** */
 #mynav{
 	text-align: right;
     height: 60px;
@@ -14,21 +15,41 @@
 	padding-right: 100px;
 	font-size: 20px;
 }
-#img_initial{
-	padding-top: 60px;
+/* **************** interface **************** */
+#myhome{
+	margin-top: 80px;
+	background-color:	#e6e6e6;
+	height: 450px;
+}
+#ph{
+	padding-top: 55px;
 	width:800px;
 	 height:400px;
+	 display:inline-block;
+}
+#img_initial{
+    width: 800px;
+    height: 400px;
+}
+#part_2_home{
+	display:inline-block;
+}
+#discript{
+    margin-left: 150px;
+    margin-top: 40px;
+    padding-bottom: 60px;
+    height: 150px;
+
+}
+#allon{
+	margin-left: 150px;
+    margin-bottom: 50px;
 }
 #discription{
 	font-size: 20px;
 	width:400px;
 	margin-bottom: 60px;
 	
-}
-#myhome{
-	margin-top: 80px;
-	background-color:	#e6e6e6;
-	height: 500px;
 }
 #camme{
 	border: 2px  black;
@@ -38,24 +59,44 @@
 	padding: 5px;
 	
 }
+/* **************** logos **************** */
 .mylogo{
 	background-color: #f3f3f3;
 }
 .log{
-	width: 150px;
-	height: 150px;
+	width: 100px;
+	height: 100px;
 	margin-left: 500px;
 }
 
 /* ---------------------------------footer---------------------------------*/
-.espace_footer{
-	width: 500px;
+#espace_footer{
+	width: 400px;
 	right: 264px;
-	margin-bottom: 130px;
+	margin-bottom: 20px;
+	display: inline-block;
+}
+#espace_footer_2{
+	width: 400px;
+	right: 264px;
+	margin-bottom: 20px;
+	display: inline-block;
+}
+#espace_footer_3{
+	width: 400px;
+	right: 264px;
+	margin-bottom: 20px;
+	display: inline-block;
 }
 .titre_footer{
-
 	font-size: 30px;
+}
+#titre_foot{
+	font-size: 30px;
+	padding-bottom: 165px;
+}
+#ligne{
+	color: #e6e6e6;
 }
 .icon_footer{
 	height: 40px;
@@ -76,6 +117,7 @@
 #img_footer{
 	height: 250px;
 	width: 250px;
+	padding-bottom: 30px;
 }
 #table{
 	margin-left: 120px;
